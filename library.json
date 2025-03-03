@@ -1,0 +1,22 @@
+{
+  "name": "MCP251863",
+  "version": "3.0.0",
+  "description": "A comprehensive driver for the MCP251863 CAN FD controller with integrated transceiver",
+  "keywords": "can, canfd, mcp251863, esp32, spi, driver, automotive",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyndex/MCP251863.git"
+  },
+  "authors": [
+    {
+      "name": "Chinmoy Bhuyan",
+      "email": "dikibhuyan@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/hyndex/MCP251863",
+  "frameworks": ["arduino", "espidf"],
+  "platforms": ["espressif32"],
+  "headers": "MCP251863.h"
+}
