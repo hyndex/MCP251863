@@ -87,7 +87,7 @@ This repository provides a **robust** implementation that covers almost all esse
    board = esp32dev
    framework = arduino
    lib_deps =
-     YourUser/MCP251863
+     dikibhuyan/MCP251863
    ```
 2. **Connect** your MCP251863 (SCK, MOSI, MISO, CS) to the correct pins on your ESP32. Ensure STBY pin is driven LOW for normal transceiver operation.
 3. **Include** the header and instantiate:
